@@ -57,7 +57,7 @@ void WeightMovement(){
       if (weight > 0.5 ){ //İlk karar merkezi ve state değiştirmesi.
         wmState = ARAC_DOLU;
       }
-      if (weight =< 0.5 ){
+      if (weight <= 0.5 ){
         wmState = ARAC_BOS;
       }
     break;
