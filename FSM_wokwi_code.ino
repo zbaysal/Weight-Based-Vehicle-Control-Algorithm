@@ -4,13 +4,15 @@ HX711 scale;
 const int DOUT_PIN = 2;
 const int SCK_PIN = 4;
 
-int action_value = -1; // Değişken, başka bir fonksiyondan alınacak.
+int action_value = -1; // Değişken, entegrede grup arkadaşımın yazdığı foksiyondan değer alıyor.
+//Ama bu kodda manuel olarak değiştirilecek.
 // 1  => Sipariş aracın üzerine bırakılmış.
 //-1  => Boşlar aracın üzerine bırakılmış.
 // 2 => Sipariş teslim edilmiş.
 //-2 => Boşlar araç üzerinden alınmış.
 
-int order = 5; // Değişken, başka bir fonksiyondan alınacak.
+int order = 5; // Değişken, entegrede grup arkadaşımın yazdığı foksiyondan değer alıyor.
+//Ama bu kodda manuel olarak değiştirilecek.
 //  3 = sipariş alınacak. 
 //  4 = sipariş teslim edilecek.
 //  5 = masadan boşlar alınacak.
